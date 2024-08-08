@@ -1,0 +1,57 @@
+- 👋<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touhid cv</title>
+    <style>
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+<img src="Touhid_Photo.jpg" alt="Profile Picture" class="profile-pic">
+<h1>personal information</h1>
+<h2>Name-Munshi Touhid Hasan</h2>
+<h2>Address-Humaipur,Madhyamgram</h2>
+    <h1>Education</h1>
+    school-Madhyamgram High school
+    <br>
+    <a href="https://school.banglarshiksha.gov.in/ws/website/index/19112600601">school</a>
+    <br>
+    college-Aliah University
+    <a href="https://www.aliah.ac.in/">college</a>
+    <br>
+    <table>
+        <tr>
+            <th><h1>Skills</h1></th>
+            <th><h1>Languages</h1></th>
+        </tr>
+        
+    <th>
+    <ol>
+        <li>c,c++</li>
+        <li>java</li>
+        <li>python</li>
+        <li>javascript</li>
+        <li>html</li>
+        <li>css</li>
+        <li>sql</li>
+    </ol>
+    </th>
+    <br>
+    <td>
+    <ul>
+        <li>English</li>
+        <li>Bengali</li>
+        <li>Hindi</li>
+    </ul>
+    </td>
+</tr>
+</table>
+</body>
+</html> 
+
+
