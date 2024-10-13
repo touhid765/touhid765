@@ -1,0 +1,14 @@
+CREATE DATABASE personal_info_db;
+
+USE personal_info_db;
+
+CREATE TABLE personal_info (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    dob DATE NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    address TEXT NOT NULL,
+    reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
