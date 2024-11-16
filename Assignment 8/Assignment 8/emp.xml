@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <name>Touhid Hasan</name>
+        <dept>IT</dept>
+        <sal>20000</sal>
+    </employee>
+    <employee>
+        <name>Shamim Reja</name>
+        <dept>Sales</dept>
+        <sal>15000</sal>
+    </employee>
+</employees>

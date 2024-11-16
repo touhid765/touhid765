@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Employee Information</h2>
+    <div id="xmlContent"></div>
+
+    <script>
+        // Function to load the XML data
+        function LoadDoc() {
+            var xhttp = new XMLHttpRequest();
+            
+            // Set up the request to handle the XML data
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    // Call the function to handle and display the XML data
+                    myfunction(xhttp.responseXML);
+                }
+            };
+            
+            // Open and send the GET request to load the XML file
+            xhttp.open("GET", "emp.xml", true);
+            xhttp.send();
+        }
+
+        // Function to process the XML and display it in a table
+        function myfunction(xml) {
+            var table = "<table><tr><th>Name</th><th>Department</th><th>Salary</th></tr>";  // Table header
+
+            // Get all <employee> elements from the XML
+            var employees = xml.getElementsByTagName("employee");
+            
+            // Loop through each employee and add a row to the table
+            for (var i = 0; i < employees.length; i++) {
+                var name = employees[i].getElementsByTagName("name")[0].textContent;
+                var dept = employees[i].getElementsByTagName("dept")[0].textContent;
+                var sal = employees[i].getElementsByTagName("sal")[0].textContent;
+
+                // Add a row for each employee
+                table += "<tr><td>" + name + "</td><td>" + dept + "</td><td>" + sal + "</td></tr>";
+            }
+
+            table += "</table>";  // Close the table
+
+            // Insert the table into the HTML div with id "xmlContent"
+            document.getElementById("xmlContent").innerHTML = table;
+        }
+
+        // Load the XML data when the page loads
+        window.onload = LoadDoc;
+    </script>
+
+</body>
+</html>
