@@ -1,57 +1,30 @@
-- 👋<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Touhid cv</title>
-    <style>
-        .profile-pic {
-            width: 150px;
-            border-radius: 50%;
-        }
-    </style>
-</head>
-<body style="background-color: aqua;">
-<img src="Touhid_Photo.jpg" alt="Profile Picture" class="profile-pic">
-<h1>personal information</h1>
-<h2>Name-Munshi Touhid Hasan</h2>
-<h2>Address-Humaipur,Madhyamgram</h2>
-    <h1>Education</h1>
-    school-Madhyamgram High school
-    <br>
-    <a href="https://school.banglarshiksha.gov.in/ws/website/index/19112600601">school</a>
-    <br>
-    college-Aliah University
-    <a href="https://www.aliah.ac.in/">college</a>
-    <br>
-    <table>
-        <tr>
-            <th><h1>Skills</h1></th>
-            <th><h1>Languages</h1></th>
-        </tr>
-        
-    <th>
-    <ol>
-        <li>c,c++</li>
-        <li>java</li>
-        <li>python</li>
-        <li>javascript</li>
-        <li>html</li>
-        <li>css</li>
-        <li>sql</li>
-    </ol>
-    </th>
-    <br>
-    <td>
-    <ul>
-        <li>English</li>
-        <li>Bengali</li>
-        <li>Hindi</li>
-    </ul>
-    </td>
-</tr>
-</table>
-</body>
-</html> 
+
+### Hi there! 👋  
+
+I'm Munshi Touhid Hasan, a **3rd-year Bachelor of Computer Applications (BCA)** student with a passion for web development and innovative tech solutions. I'm constantly exploring ways to bridge the gap between academia and real-world applications through projects and collaborations.  
+
+🔭 **What I Do**  
+- Building robust web applications using the **MERN stack**.  
+- Developing **dynamic and responsive websites** with HTML, CSS, JavaScript, PHP, and MySQL.  
+- Creating scalable systems like a **Pharmacy Management System** to streamline operations.  
+- Enhancing user experiences with frontend design and backend logic.  
+
+🌟 **Highlights**  
+- Completed multiple internship projects at **Futureintern**, including a personal portfolio, temperature converter, and calculator app.  
+- Actively learning and applying new technologies to real-world projects.  
+- Passionate about tech innovation, problem-solving, and creating meaningful user experiences.  
+
+🌱 **Tech Stack**  
+- Frontend: HTML, CSS, JavaScript, React  
+- Backend: Node.js, PHP  
+- Database: MySQL, MongoDB  
+- Tools: XAMPP, Git, VS Code  
+
+📫 **Let’s Connect**  
+- [LinkedIn](https://github.com/touhid765)    
+
+💡 **Fun Fact**: I love tackling challenges and exploring creative solutions in tech and beyond!  
+
+
 
 
